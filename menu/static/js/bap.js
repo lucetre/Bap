@@ -66,10 +66,11 @@ function bap() {
             }
             break;
         case 8:  // etc
-            b = Math.floor(Math.random() * 1) + 1;
+            b = Math.floor(Math.random() * 2) + 1;
             menu1 += 'The menu for today is Special:';
             switch(b) {
                 case 1: menu2 += 'Hanoi byeol!'; break;
+                case 2: menu2 += 'Mawang jokbal!'; break;
             }
             break;
     }
