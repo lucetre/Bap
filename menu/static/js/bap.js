@@ -18,7 +18,7 @@ function bap() {
             b = Math.floor(Math.random() * 2) + 1;
             menu1 += 'The menu for today is Bunsik:';
             switch(b) {
-                case 1: menu2 += 'Bulnan ddukBokki!'; break;
+                case 1: menu2 += 'Bulnan ddukbokki!'; break;
                 case 2: menu2 += 'Gimgane!'; break;
             }
             break;
@@ -46,7 +46,7 @@ function bap() {
             switch(b) {
                 case 1: menu2 += 'BBQ!'; break;
                 case 2: menu2 += 'Soonsu chicken!'; break;
-                case 3: menu2 += 'Fried cham jalhaneunJip!'; break;
+                case 3: menu2 += 'Fried cham jalhaneunjip!'; break;
             }
             break;
         case 6:  // Pizza
@@ -61,8 +61,8 @@ function bap() {
             b = Math.floor(Math.random() * 2) + 1;
             menu1 += 'The menu for today is Fastfood:';
             switch(b) {
-                case 1: menu2 += 'Burgerking!'; break;
-                case 2: menu2 += 'Moms touch!'; break;
+                case 1: menu2 += 'Burger king!'; break;
+                case 2: menu2 += 'Mom`s touch!'; break;
             }
             break;
         case 8:  // etc
