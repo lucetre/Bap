@@ -15,22 +15,21 @@ function bap() {
             }
             break;
         case 2:  // Bunsik
-            b = Math.floor(Math.random() * 2) + 1;
+            b = Math.floor(Math.random() * 3) + 1;
             menu1 += 'The menu for today is Bunsik:';
             switch(b) {
                 case 1: menu2 += 'Bulnan ddukbokki!'; break;
                 case 2: menu2 += 'Gimgane!'; break;
+                case 3: menu2 += 'Dongdaemun yupgi ddukbokki!'; break;
             }
             break;
-        case 3:  // Gogi
-            b = Math.floor(Math.random() * 5) + 1;
-            menu1 += 'The menu for today is Gogi:';
+        case 3:  // Pork
+            b = Math.floor(Math.random() * 3) + 1;
+            menu1 += 'The menu for today is Pork:';
             switch(b) {
-                case 1: menu2 += 'Orunson foodcafe!'; break;
-                case 2: menu2 += 'Outback delivery!'; break;
-                case 3: menu2 += 'Baedal samgioup jikgusam!'; break;
-                case 4: menu2 += 'Hanam doejijip!'; break;
-                case 5: menu2 += 'Yugane dakgalbi!'; break;
+                case 1: menu2 += 'Baedal samgioup jikgusam!'; break;
+                case 2: menu2 += 'Hanam doejijip!'; break;
+                case 3: menu2 += 'Mawang jokbal!'; break;
             }
             break;
         case 4:  // Joongsik
@@ -65,12 +64,28 @@ function bap() {
                 case 2: menu2 += 'Mom`s touch!'; break;
             }
             break;
-        case 8:  // etc
+        case 8:  // Japanese katsu
+            b = Math.floor(Math.random() * 2) + 1;
+            menu1 += 'The menu for today is Japanese Katsu:';
+            switch(b) {
+                case 1: menu2 += 'Seouldae donburi & naengmomil!'; break;
+                case 2: menu2 += 'Mister katsu!'; break;
+            }
+            break;
+        case 9:  // Beef
+            b = Math.floor(Math.random() * 2) + 1;
+            menu1 += 'The menu for today is Beef:';
+            switch(b) {
+                case 1: menu2 += 'Orunson foodcafe!'; break;
+                case 2: menu2 += 'Outback delivery!'; break;
+            }
+            break;
+        case 10:  // etc
             b = Math.floor(Math.random() * 2) + 1;
             menu1 += 'The menu for today is Special:';
             switch(b) {
                 case 1: menu2 += 'Hanoi byeol!'; break;
-                case 2: menu2 += 'Mawang jokbal!'; break;
+                case 2: menu2 += 'Yugane dakgalbi!'; break;
             }
             break;
     }
