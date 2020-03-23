@@ -1,7 +1,7 @@
 
 
 function bap() {
-    console.log('!!RUBIS dinner!! v. 1 \n');
+    console.log('!!RUBIS dinner!! v. 2 \n');
     let menu1 = '';
     let menu2 = '';
     let a = Math.floor(Math.random() * 8) + 1;
